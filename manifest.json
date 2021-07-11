@@ -1,0 +1,19 @@
+{
+    "manifest_version":2,
+    "name":"Timezone/App Finder",
+    "version":"1.0.0",
+    "description":"This is a simple extension that displays time and shortcuts for social media accounts",
+    "icons":{
+        "128":"clock.png"
+    },
+    "browser_action":{
+        "default_title":"Timezone/ App Finder",
+        "default_popup":"popup.html",
+        "default_icon":"clock.png"
+    },
+    "permissions":["activeTab"],
+    "background":{
+        "scripts":["popup.js"]
+    }
+
+}
